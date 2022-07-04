@@ -9,7 +9,7 @@ describe('App', () => {
     expect(screen.getByText(/count/i)).toBeDefined();
   });
 
-  it('should render without error 2', async () => {
+  it('counter should work', async () => {
     render(<App />);
 
     const btn = screen.getByRole('button');
